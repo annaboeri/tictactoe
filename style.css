@@ -1,6 +1,7 @@
 body {
     background-color: white;
     font-family: 'Courier New', monospace;
+    text-align: center;
   }
   h1{
     color: black;
@@ -15,7 +16,7 @@ body {
   }
   .board {
     width: 450px;
-    height 450px;
+    height: 450px;
     margin: 0 auto;
   }
   
@@ -57,8 +58,19 @@ body {
     border-right: 4px solid black;
   }
   
-  .reset {
-    text-align: center;
+  #reset {
     font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #alert-winner {
+    margin: 100px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+    font-weight: 550;
   }
   
